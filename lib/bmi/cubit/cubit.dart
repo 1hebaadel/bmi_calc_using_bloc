@@ -9,8 +9,8 @@ class BMICubit extends Cubit<BMIStatus>{
   static BMICubit get(BuildContext context) => BlocProvider.of(context);
 
   double height = 170;
-  bool isMale = false;
-  int age = 22 ;
+  bool isMale = true;
+  int age = 22;
   int weight = 66;
   int ? result;
 
